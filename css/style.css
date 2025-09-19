@@ -131,8 +131,32 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
+        /*width:624px;*/
         width: 768px;
     }
+
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+
+    .container {
+
+        width: 480px;
+    }
+
+    .lessons .col {
+
+        width: 100%;
+
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+
+}
